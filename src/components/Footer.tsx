@@ -8,8 +8,8 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleSubscribe = async (e:React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+  const handleSubscribe = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     try {
       setLoading(true);
       if (!email) {
@@ -52,7 +52,12 @@ const Footer = () => {
               </div>
 
               <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-                <form className="w-full" onSubmit={(e:React.FormEvent<HTMLFormElement>) => handleSubscribe(e)}>
+                <form
+                  className="w-full"
+                  onSubmit={(e: React.FormEvent<HTMLFormElement>) =>
+                    handleSubscribe(e)
+                  }
+                >
                   <label htmlFor="UserEmail" className="sr-only">
                     Email
                   </label>
@@ -275,7 +280,7 @@ const Footer = () => {
               <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
                 <li>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/mhay.vhic.5"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -299,7 +304,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/mhayvhic25"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -323,7 +328,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://x.com/mhayvhic"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -343,7 +348,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://github.com/Oluyemi29"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -367,7 +372,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://oluyemi.vercel.app"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
