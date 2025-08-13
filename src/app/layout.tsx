@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: "https://mvfarm.vercel.app",
     siteName: "MV Farm",
     images: {
-      url: "/tempmvfarm.png",
+      url: "/tempmvfarm.jpg",
       width: 1200,
       height: 630,
       alt: "MV Farm",
