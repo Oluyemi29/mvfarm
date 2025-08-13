@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Register",
 };
 
+// correction
 const page = () => {
   return (
     <div>
