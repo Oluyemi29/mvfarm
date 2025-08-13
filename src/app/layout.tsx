@@ -19,10 +19,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mhayvic Farm",
-    template: "%s |  Mhayvic Farm",
+    default: "MV Farm",
+    template: "%s |  MV Farm",
   },
   description: "A Farm Site",
+  openGraph: {
+    title: "MV Farm",
+    description:
+      "At MV Farm, we are passionate about connecting rabbit breeders,farmers, and buyers through a trusted and convenient online platform.",
+    url: "https://mvfarm.vercel.app",
+    siteName: "MV Farm",
+    images: {
+      url: "/tempmvfarm.PNG",
+      width: 1200,
+      height: 630,
+      alt: "MV Farm",
+    },
+    type: "website",
+  },
 };
 
 export default function RootLayout({
